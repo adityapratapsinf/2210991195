@@ -1,0 +1,28 @@
+# ── Python ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ─────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── API key — NEVER commit this ──────────
+.env
+
+# ── Test / coverage cache ─────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── IDE files ────────────────────────────
+.vscode/
+.idea/
+*.swp
